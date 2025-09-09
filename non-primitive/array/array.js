@@ -3,7 +3,7 @@
 let colors = ["red", "green", "blur"];
 console.log(colors);
 
-// 2. using array constructor
+// 2. using array constructor (single element koduthal ath athinte length aaytt aan edukunnath)
 
 let numbers = new Array(10,30,20);
 console.log(numbers);
