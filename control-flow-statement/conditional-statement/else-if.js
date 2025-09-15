@@ -1,7 +1,6 @@
 
 const prompt = require ('prompt-sync')();
-let score = prompt("Enter the score: ");
-
+let score = prompt("Enter the score: ");// for prompt
 
 // let score = 80;
 

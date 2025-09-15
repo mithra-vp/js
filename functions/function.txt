@@ -1,0 +1,35 @@
+functions are block of code design to perform a particular task
+
+
+// function is a block of code that perform a task
+// syntax
+// function function name (){
+//     block of code
+// }
+//     function  name () (call)
+
+// hoisted means call before define the function
+
+
+1. Function declaration
+2. Function expression
+3. Arrow function
+4. call back function
+5. IIFE immediatly invoked function expression
+
+=> pre-defined functions (built-in function)
+
+1. String function
+2. Date function
+3. Math function
+
+ =>> --Anonymous function--
+ a function with out a name is called anonymous function
+
+ ---key features---
+
+ 1. Anonymous or named
+ 2. not hoisted
+ 3. can be used as an argument
+ 4. can be assigned to variables/objects
+ 5. 

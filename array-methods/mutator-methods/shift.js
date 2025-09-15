@@ -1,4 +1,4 @@
-// remove first element from the Arrayn (shift)
+// remove first element from the Array (shift)
 // add an  element into the start in the array  (unshift)
 
 let fruits = ["apple","orange"];
