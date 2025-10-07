@@ -28,4 +28,5 @@ getUserInput(greetUser);
 
 // callBack is also called pyramid of doom
 // multiple nested callBacks make the code difficult to read and maintain is called callback hell.
+// prevented by promise
 

@@ -1,0 +1,8 @@
+the rest parameter syntax (...) allows a function to accept an infinite number of arguments as an array
+
+rest paramter even or odd   -----h.w----- res nte ullil
+try(success,await),catch(error) thazhe error code,asycn await 
+console.error     ------h.w--------
+
+
+arguments(object) and rest paramter(real array) difference

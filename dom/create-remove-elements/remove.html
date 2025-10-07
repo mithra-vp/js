@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>remove example</h2>
+    <p id="myPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, molestias veniam? Culpa modi ducimus recusandae possimus eos fuga, enim dolorem ex? Cum modi est exercitationem doloremque rerum porro aperiam iure inventore, sint ducimus atque cupiditate deserunt asperiores repellendus commodi saepe rem! Magni ea ab dolorum optio amet enim omnis excepturi saepe minus quae voluptatum debitis totam, quo porro voluptatibus perferendis sit, facilis magnam! Cum ab soluta quaerat nam dolorum quos architecto repellendus distinctio magni </p>
+    <button onclick="removePara()">Remove paragraph</button>
+    <script>
+        function removePara(){
+            let para = document.getElementById("myPara");
+            para.remove();
+        }
+    </script>
+</body>
+</html>
+
+<!-- directly remove the selected elements -->
