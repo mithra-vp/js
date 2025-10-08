@@ -1,0 +1,114 @@
+1. What is the difference between synchronous & asynchronous operations?
+ans : synchronous operations is a line by line execution and asynchronous operations is like  independant operation like give a time delay for every funcion. 
+
+2. What is dom?
+ans : Dom is stands for document object model that refers to dom is a programing interface provided by Browser it allows javascript to access manipulate the structure style and content of the webpage.
+
+3. What are the data types in js?
+ans : primitive data types and non-primitive data types
+    The primitive ( that ar immutable that means no changes and stores single value )datatypes are=> 
+    string - "mithra", 'mithra'
+    number - 1,2,3,4,4
+    boolean - it has only true or false value
+    undefined - undefined values
+    null - absants of value
+    Sympols - unique values
+
+    non primitive datatypes (mutable that means we can change it and store multiple values ) datatypes are =>
+
+    array - multiple values in a single variable
+    object - object has keyvalue pairs (eg: name(mithra):mithra(value));
+
+4. What is an event in js?
+ans : event is an action or occurance that happens to the browser , handling the event is called event handling
+
+5. What are closure in js?
+ans : closure - it has outer function & inner function after the execution the inner function can access the variables, methods etc from outer function
+
+6. What the difference between map and forEach?
+ans : map and forEach are array itration methods 
+    map - when condition satisfied then the returned data creates a new array [array itration]
+    forEach -  executes a function for each elements in the array(does not return)
+
+7. What is a callback function in js?
+ans : function passing inside another function as an argument this is called callBack function
+
+8. What is inheritance in js?
+ans :  one class can inherits properties and methods from another class (by using 'extends' keyword)
+
+9. What is the purpose of trycatch statment in js?
+ans : The try , catch statement is used to handle errors in JavaScript.
+      catch - executes if the promise is rejected.
+
+10. What is the purpose of addeventlistner method in js?
+ans : It listens for an event (like a click) and then runs a function when that event happens.
+
+11. Whatis the difference between query selector and query selectorall?
+ans : query selectorall - return all matches
+      query selector  - return with the first match
+
+12. What is the difference between null and undefined?
+ans : The null and undefined are primitive datatypes in js, null means the absants of value. and the undefined means not any value defined
+
+13. What is the difference between = & ===?
+ans : the difference between = and  === is. =  It’s used to assign a value to a variable. === It compares both value and data type
+
+14. What is hoisting?
+ans : hoisted means call the function before define the function
+
+15. What is '.this' keyword in js?
+ans : 
+
+16. What are the different way to define a function?
+ans : a funcion means a block of code that perform a particular task. a function defined by different ways that are ---
+    1. funcion declaration - function declaration is the one of the ways to define function . the key features are - hoisting, must have a function name, globaly or localy scoped
+    2. funcion expression - function expression is a way to define a function inside an expression and assign into a variable . key features like anonymous, named , not hoisted
+    3. arrow function -arrow function is a shorter syntax for writing functions in java script ,also introduced in ES6(ECMA SCRIPT 2015)
+    4. callback function - function passing inside another function as an argument this is called callBack function
+    5. anonymous function - function is defined without a name is called anonymous function
+    5. iife - IIFE - immediately invoked function expression,call the function before run the document - IMMEDIATELY INVOKED FUNCTION EXPRESSION
+       1. immediately invoked
+       2. data privacy - variables defined inside iife are not accessible outside
+       3. closure - it has outer function & inner function after the execution the inner function can access the variables, methods etc from outer function
+    self containe - executes independantly with effecting surrounding code
+    
+    6. predefined functions - pre-defined functions are function that are aleardy provided by javascript(built-in functions or native methods)
+      . string function
+      . math function
+      . date function
+
+
+17. What is the purpose of let ,var, const keyword in js?
+ans : let, var, const keywords are used to declare a variable 
+      let - re-declaration is not possible but re-assignment is possible and block scoped
+      var - redclare,reassign ,function scoped
+      const - there is no change it is constant
+
+18. What is the difference between primitive & non primitive datatypes?
+ans : primitive data types and non-primitive data types
+    The primitive ( that ar immutable that means no changes and stores single value )datatypes are=> 
+    string - "mithra", 'mithra'
+    number - 1,2,3,4,4
+    boolean - it has only true or false value
+    undefined - undefined values
+    null - absants of value
+    Sympols - unique values
+
+    non primitive datatypes (mutable that means we can change it and store multiple values ) datatypes are =>
+
+    array - multiple values in a sngle variable
+    object - object has keyvalue pairs (eg: name(mithra):mithra(value));
+
+
+19. What the use of spread operators in js?
+ans : the spread operator(...) in js is used to spread out elements of an array or the properties of an object 
+     it allows copy ,combine or expand array or object easly  
+
+
+20. What is ternery operator in js?
+ans : ternary operator is a short hand way to write simple if-else  conditions in a single line 
+      it has a contion and two block of code  if condition is true the first block will be worked or false the second block will excecute.
+
+21. What is res parameter?
+ans : the rest parameter syntax (...) allows a function to accept an infinite number of arguments as an array
+
