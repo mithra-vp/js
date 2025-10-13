@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Resize Event</h2>
+    <p id="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque aut molestiae accusantium quidem! Expedita vero odio unde. Numquam dolor neque cumque voluptas, minus aliquam quos dolorem quibusdam dolorum, reprehenderit explicabo, quisquam nam est illum quas consectetur magnam omnis sequi distinctio delectus ratione veritatis reiciendis? Quo ipsum sit deserunt suscipit recusandae temporibus? Sit iure aspernatur accusantium dolorum, veniam suscipit, a voluptates officiis maiores ullam commodi? Libero minus vero ipsa repellat laborum eos molestiae quaerat ducimus, repudiandae cum eum possimus delectus vel distinctio ut aliquam, sed dolorum, aspernatur praesentium quidem voluptates. Veritatis odio ad dolore, eaque enim nemo animi itaque maxime.</p>
+
+    <script>
+        window.addEventListener("resize", () =>{
+            document.getElementById("msg").textContent = "page is fully resized!!"
+        })
+    </script>
+</body>
+</html>
